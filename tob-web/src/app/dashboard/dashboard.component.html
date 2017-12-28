@@ -1,14 +1,14 @@
 <section id="dashboard">
 
-  <h1 class="dashboard-title text-center">Welcome to British Columbia's Verifiable Organizations</h1>
+  <h1 class="dashboard-title text-center" i18n>Welcome to British Columbia's Verifiable Organizations</h1>
 
   <div class="row">
     <div class="col-sm-12">
 
       <div class="text-center">
         <ul class="stats">
-          <li class="stat"><span class="numbers">356,632</span> organizations</li>
-          <li class="stat"><span class="numbers">1,497,854</span> permits and licences</li>
+          <li class="stat" i18n><span class="numbers">356,632</span> organizations</li>
+          <li class="stat" i18n><span class="numbers">1,497,854</span> permits and licences</li>
         </ul>
         <div class="search-outer">
           <div class="large-search">
@@ -18,10 +18,10 @@
           </div>
           <div class="btn-toolbar search-type">
             <div class="btn-group">
-              <label [class]="'btn btn-default btn-radio' + (searchType=='name' ? ' active' : '')">
+              <label [class]="'btn btn-default btn-radio' + (searchType=='name' ? ' active' : '')" i18n>
                 <input type="radio" name="search_type" value="name" [checked]="searchType=='name'" (click)="setSearchType($event)"> &nbsp;Search by Name
               </label>
-              <label [class]="'btn btn-default btn-radio' + (searchType=='location' ? ' active' : '')">
+              <label [class]="'btn btn-default btn-radio' + (searchType=='location' ? ' active' : '')" i18n>
                 <input type="radio" name="search_type" value="location" [checked]="searchType=='location'" (click)="setSearchType($event)"> &nbsp;Search by Location
               </label>
             </div>
@@ -30,7 +30,7 @@
       </div>
 
       <div class="results mrgn-tp-lg" *ngIf="results.length || none">
-        <label class="control-label">Search Results</label>
+        <label class="control-label" i18n>Search Results</label>
         <div *ngIf="searchType=='name' && !none">
           <div class="row" *ngFor="let record of results">
             <div class="col-sm-6">
@@ -57,7 +57,7 @@
         </div>
         <div class="row" *ngIf="none">
           <div class="col-sm-6 text-muted">
-            <em>No results</em>
+            <em i18n>No results</em>
           </div>
         </div>
       </div>
@@ -66,17 +66,17 @@
         <div class="col-sm-12 text-right">
           <ul class="pager">
             <li *ngIf="less">
-              <a href="#" (click)="prev(); $event.preventDefault();">&lt;&lt; Previous</a>
+              <a href="#" (click)="prev(); $event.preventDefault();" i18n>&lt;&lt; Previous</a>
             </li>
             <li *ngIf="more">
-              <a href="#" (click)="next(); $event.preventDefault();">Next &gt;&gt;</a>
+              <a href="#" (click)="next(); $event.preventDefault();" i18n>Next &gt;&gt;</a>
             </li>
           </ul>
         </div>
       </div>
 
       <div class="map mrgn-tp-lg hidden">
-        <label class="control-label">Search by Location</label>
+        <label class="control-label" i18n>Search by Location</label>
         <div class="map-image"></div>
       </div>
     </div>

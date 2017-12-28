@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="cd42197f04cec96d139a4034d16580987ee079ba" datatype="html">
+        <source>Welcome to British Columbia&apos;s Verifiable Organizations</source>
+		<target>Bienvenue aux Organisations vérifiables de la Colombie-Britannique</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="95cdc293adf452a60bf4df7a4fc80a32c4d53854" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span"/>356,632<x id="CLOSE_TAG_SPAN" ctype="x-span"/> organizations</source>
+		<target><x id="START_TAG_SPAN" ctype="x-span"/>356 632<x id="CLOSE_TAG_SPAN" ctype="x-span"/> organizations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d1cb6b5d5d36a03804cfd7eee345c66624ee1bb" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span"/>1,497,854<x id="CLOSE_TAG_SPAN" ctype="x-span"/> permits and licences</source>
+		<target><x id="START_TAG_SPAN" ctype="x-span"/>1 497 854<x id="CLOSE_TAG_SPAN" ctype="x-span"/> permis et licences</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3001f57902e66664a0e2c627364f5d5c0a738da6" datatype="html">
+        <source>
+                <x id="TAG_INPUT" ctype="x-input"/>  Search by Name
+              </source>
+        <target>
+                <x id="TAG_INPUT" ctype="x-input"/>  Rechercher par nom
+              </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d85f1ada83ba5f81928b525913bf12cbdb3ae7c" datatype="html">
+        <source>
+                <x id="TAG_INPUT" ctype="x-input"/>  Search by Location
+              </source>
+        <target>
+                <x id="TAG_INPUT" ctype="x-input"/>  Rechercher par lieu
+              </target>			  
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="009cbc61486303f35ccb9fcf6466a956137fe37d" datatype="html">
+        <source>Search Results</source>
+		<target>Résultats de la recherche</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4e28b371f8453e22779db590cb0fe67f2a080e8" datatype="html">
+        <source>No results</source>
+		<target>Aucun résultat</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b29b82954542b81a2ed3c722b5786ccb950a7048" datatype="html">
+        <source>&lt;&lt; Previous</source>
+		<target>&lt;&lt; Précédent</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0145e43c8cda0613cad100cd97ec99665a8ab90b" datatype="html">
+        <source>Next &gt;&gt;</source>
+		<target>Suivant &gt;&gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="56d9e148c231b6a6bad8c4040921fb673a317c52" datatype="html">
+        <source>Search by Location</source>
+		<target>Rechercher par lieu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
