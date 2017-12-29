@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="cd42197f04cec96d139a4034d16580987ee079ba" datatype="html">
         <source>Welcome to British Columbia&apos;s Verifiable Organizations</source>
-		<target>Bienvenue aux Organisations vérifiables de la Colombie-Britannique</target>
+        <target>Bienvenue aux Organisations vérifiables de la Colombie-Britannique</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="95cdc293adf452a60bf4df7a4fc80a32c4d53854" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span"/>356,632<x id="CLOSE_TAG_SPAN" ctype="x-span"/> organizations</source>
-		<target><x id="START_TAG_SPAN" ctype="x-span"/>356 632<x id="CLOSE_TAG_SPAN" ctype="x-span"/> organizations</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span"/>356 632<x id="CLOSE_TAG_SPAN" ctype="x-span"/> organizations</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -20,10 +20,18 @@
       </trans-unit>
       <trans-unit id="3d1cb6b5d5d36a03804cfd7eee345c66624ee1bb" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span"/>1,497,854<x id="CLOSE_TAG_SPAN" ctype="x-span"/> permits and licences</source>
-		<target><x id="START_TAG_SPAN" ctype="x-span"/>1 497 854<x id="CLOSE_TAG_SPAN" ctype="x-span"/> permis et licences</target>
+        <target><x id="START_TAG_SPAN" ctype="x-span"/>1 497 854<x id="CLOSE_TAG_SPAN" ctype="x-span"/> permis et licences</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
           <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6bec7734cb3740b324966b003c0f45f0148a70e8" datatype="html">
+        <source>search</source>
+        <target>recherche</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3001f57902e66664a0e2c627364f5d5c0a738da6" datatype="html">
@@ -31,7 +39,7 @@
                 <x id="TAG_INPUT" ctype="x-input"/>  Search by Name
               </source>
         <target>
-                <x id="TAG_INPUT" ctype="x-input"/>  Rechercher par nom
+                <x id="TAG_INPUT" ctype="x-input"/>  Recherche par nom
               </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
@@ -43,8 +51,8 @@
                 <x id="TAG_INPUT" ctype="x-input"/>  Search by Location
               </source>
         <target>
-                <x id="TAG_INPUT" ctype="x-input"/>  Rechercher par lieu
-              </target>			  
+                <x id="TAG_INPUT" ctype="x-input"/>  Recherche par lieu
+              </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
           <context context-type="linenumber">24</context>
@@ -52,7 +60,7 @@
       </trans-unit>
       <trans-unit id="009cbc61486303f35ccb9fcf6466a956137fe37d" datatype="html">
         <source>Search Results</source>
-		<target>Résultats de la recherche</target>
+        <target>Résultats de la recherche</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
           <context context-type="linenumber">33</context>
@@ -60,7 +68,7 @@
       </trans-unit>
       <trans-unit id="e4e28b371f8453e22779db590cb0fe67f2a080e8" datatype="html">
         <source>No results</source>
-		<target>Aucun résultat</target>
+        <target>Aucun résultat</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
           <context context-type="linenumber">60</context>
@@ -68,7 +76,7 @@
       </trans-unit>
       <trans-unit id="b29b82954542b81a2ed3c722b5786ccb950a7048" datatype="html">
         <source>&lt;&lt; Previous</source>
-		<target>&lt;&lt; Précédent</target>
+        <target>&lt;&lt; Précédent</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
           <context context-type="linenumber">69</context>
@@ -76,7 +84,7 @@
       </trans-unit>
       <trans-unit id="0145e43c8cda0613cad100cd97ec99665a8ab90b" datatype="html">
         <source>Next &gt;&gt;</source>
-		<target>Suivant &gt;&gt;</target>
+        <target>Suivant &gt;&gt;</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
           <context context-type="linenumber">72</context>
@@ -84,10 +92,82 @@
       </trans-unit>
       <trans-unit id="56d9e148c231b6a6bad8c4040921fb673a317c52" datatype="html">
         <source>Search by Location</source>
-		<target>Rechercher par lieu</target>
+        <target>Recherche par lieu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app\dashboard\dashboard.component.ts</context>
           <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="38d1be613b9aac4a66acdd390a05a0e349dd72d0" datatype="html">
+        <source>B.C. Government Logo</source>
+        <target>Logo du Gouvernement de la Colombie-Britannique</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>      
+      <trans-unit id="3a56508bbce9e589e87c70f5a2e3b1bd342bae96" datatype="html">
+        <source>assets/gov3_bc_logo-en.png</source>
+        <target>assets/gov3_bc_logo-fr.png</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>      
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Home</source>
+        <target>Accueil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\breadcrumb\breadcrumb.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8e6204451995931bc71c627c2256b7f1074c60e4" datatype="html">
+        <source>TheOrgBook</source>
+        <target>Le livre d'organisation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="634ad9d7b66735dce881cffce67d2b5d29f88af0" datatype="html">
+        <source>Disclaimer</source>
+        <target>Avertissement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c78b53bca33467190c0b7a01320bc093a2b1427" datatype="html">
+        <source>Privacy</source>
+        <target>Politique de confidentialité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cec2f1396a9d5824bf5766fe67192590a9e05bf0" datatype="html">
+        <source>Accessibility</source>
+        <target>Accessibilité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc82fa89983785cb60daa0a7516c611fc02b5cd1" datatype="html">
+        <source>Copyright</source>
+        <target>Droits d'auteur</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
+        <source>Contact Us</source>
+        <target>Contactez-nous</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\app.component.ts</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
     </body>
